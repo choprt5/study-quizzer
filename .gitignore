@@ -1,4 +1,13 @@
+# venv + secrets
 .venv/
+venv/
+sklearn-env/
 .env
+.env.*
+
+# python cache
 __pycache__/
-sklearn-env/sklearn-env/
+*.py[codz]
+
+# mac
+.DS_Store
