@@ -3,6 +3,11 @@ import os, json
 from dotenv import load_dotenv
 from openai import OpenAI
 
+load_dotenv() 
+
+api_key = st.secrets.get("OPENAI_API_KEY") or os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=api_key)
+
 client = OpenAI()
 MODEL = "gpt-4o-mini"
 
