@@ -6,8 +6,8 @@ Built with Streamlit + OpenAI Responses API.
 ## Features
 - Generate 10 MCQs from your notes (grounded to the text you paste)
 - Hints shown only when you miss a question
-- “Hints only mode” toggle (hide correctness + score)
-- Basic grounding check (warns if notes are too short)
+- Optional “Hints only mode” toggle (will hide the score)
+- Will warn if notes are too short
 
 ## Tech Stack
 - Python
