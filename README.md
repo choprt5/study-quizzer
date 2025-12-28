@@ -1,5 +1,6 @@
 # Study Quizzer
 Paste lecture notes → get a multiple-choice quiz with misconception-trap distractors and question-specific hints.
+
 Built with Streamlit + OpenAI Responses API.
 
 ## Features
